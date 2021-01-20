@@ -1,7 +1,6 @@
 {
-  "name": "@payubiz/payubiz",
-  "version": "0.0.1",
-  "private": true,
+  "name": "payubiz",
+  "version": "0.0.1", 
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -9,17 +8,6 @@
     "test": "jest",
     "lint": "eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eramudeep/payubiz.git"
-  },
-  "keywords": [],
-  "author": "Aman Deep <er.amudeep@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eramudeep/payubiz/issues"
-  },
-  "homepage": "https://github.com/eramudeep/payubiz",
   "dependencies": {
     "js-sha512": "^0.8.0",
     "payu-non-seam-less-react": "^2.0.0",
@@ -39,6 +27,15 @@
   "jest": {
     "preset": "react-native"
   },
-  "main": "index.js",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eramudeep/payubiz.git"
+  },
+  "keywords": [],
+  "author": "Aman Deep <er.amudeep@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eramudeep/payubiz/issues"
+  },
+  "homepage": "https://github.com/eramudeep/payubiz"
 }
